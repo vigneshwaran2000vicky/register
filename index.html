@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="head">
+    <h3 id="lgj" onclick="login()"  style="visibility: hidden;">Login</h3>
+    <h3 id="rgj" onclick="register()" >Register</h3>
+   
+  </div>
+  
+    <div id="register" class ="cm">
+     
+      <h5>email</h5>
+      <input type="text" id="re"placeholder="email" required>
+      <h5>Password</h5>
+      <input type="text" id="rp"placeholder="password" required>
+      <h5>Conform Password</h5>
+      <input type="text" id="rpp"placeholder="password" required><br><br>
+      <button onclick="rebtn()">Registed</button>
+      
+      <div>
+        <a  class="fd1" id="fdj" onclick="forget()">forgetpassword?</a>
+        <p id="lgj" class="dd" onclick="login()">Login</p></p>
+      </div>
+    
+    </div>
+    <div id="login" class="cm">
+      <h5>email</h5>
+      <input type="text" id="le"placeholder="email" required>
+      <h5>Password</h5>
+      <input type="text" id="lp" placeholder="password" required><br><br>
+      <button onclick="lgbtn()">login</button>
+      <div class="fd2">
+        <a onclick="forget()">forgetpassword?</a>
+        <p id="rgj" class="ff" onclick="register()">Register</p>
+      </div>
+    </div>
+  
+    <div id  ="fd" class="cm" >
+      <h5 id="fr">Forget password</h5>
+      <input type="text" id="fp" placeholder="email"><br><BR>
+      <button onclick="fpbtn()">Get password</button>
+      <div class="div">
+      <p id="rgj"  onclick="register()">Register</p>
+      <p id="lgj" onclick="login()">Login</p>
+    </div>
+  </div>
+   <script src="first.js"></script>
+</body>
+</html>

@@ -1,0 +1,61 @@
+*{
+    padding: 0;margin: 0;
+    box-sizing: border-box;
+  line-height: 30px;
+  cursor: pointer;
+}
+.head h3{
+  
+    color: limegreen;
+   
+    position: absolute;
+    margin: 40px 170px;
+    margin-top: 0;
+}
+#login{
+    padding: 40px 10px 20px 130px;
+ position: absolute;
+}
+#register{
+  position: absolute;
+  padding: 40px 10px 20px 130px;
+  visibility: hidden;
+}
+#fd{
+    position: relative;line-height: 20px;
+  padding: 40px 10px 20px 130px;
+  visibility: hidden;
+}
+button{
+    width: 170px;
+    border: 1px solid green;
+    color: white;
+    background:linear-gradient(230deg, red, green);
+}
+
+.fd2,.fd1{
+    position: relative;
+  
+    text-align: center;
+}
+.fd2 a,.fd1 a{
+    color: rgb(12, 12, 12);
+}
+.cm{
+    visibility: hidden;
+}
+#register{
+    visibility: visible;
+}
+.div{
+    display: flex;
+    justify-content: space-between;
+    width: 25%;
+}
+#fd h5{
+    font-size: 18px;
+    position: relative;
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+
